@@ -15,7 +15,7 @@ In this module, you will create databases with Velo.
 
 > NOTE: Make sure to mark the phone number as PII!
 
-![example of the database](assets/content.png)
+![example of the database](/assets/content.png)
 
 
 :fast_forward: Next Module => [Retrieve user input](GET_DATA.md)

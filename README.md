@@ -35,8 +35,16 @@ This workshop is divided into modules. Each module describes what we're going to
 | [Get User Input Data](docs/GET_DATA.md)   | Get the usr's input values from the fields    |
 | [Save the data in your Database](docs/SAVE_DATA.md)   | Save the user data into your database    |
 | [Install the Twilio NPM Helper](docs/INSTALL_TWILIO.md)   | Access the npm package manager and install Twilio   |
+| [Create the Twilio Backend](docs/TWILIO_BE.md)   | Create the backend code to send a text message   |
+| [Get some trivia](docs/TRIVIA_FETCH.md)   | Fetch a trivia question using a REST API   |
+| [Let's put it all together!](docs/PUT_TOGETHER.md)   | Connect your trivia to your text and your text to your frontend!   |
 
 
-## BONUS: Automated Responses
+## BONUS 1: Create a Job for the Daily send
+
+Instead of having to manually send a message to each user, you can use [Scheduled Jobs](https://support.wix.com/en/article/velo-scheduling-recurring-jobs) to automatically send the trivia question to every user you saved in your database. Can you configure a daily text to everyone who has signed up?
+
+
+## BONUS 2: Automated Responses
 
 Are your users tired of receiving the mind bindingly difficult questions to answer? Let them unsubscribe by responding to your phone number.
