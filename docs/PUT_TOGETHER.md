@@ -7,7 +7,7 @@ In this module, you will connect your Trivia response to your Twilio text and se
 
 **:white_check_mark: Step-by-Step Instructions**
 
-1. Now that you have your working Trivia REST call, you can use that as your body of your Twilio text message. Call the _getTrivia_ function in your _sendTextMessage_ function. Remember that this is promised so you will need to await it.
+1. Now that you have your working Trivia REST call, you can use that as your body of your Twilio text message. Call the _getTrivia_ function in your _sendTextMessage_ function BEFORE the Twilio Message Create function. Remember that this is promised so you will need to await it.
 ```JavaScript
 let trivia = await getTrivia();
 
