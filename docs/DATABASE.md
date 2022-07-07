@@ -15,6 +15,9 @@ In this module, you will create databases with Velo.
 
 > NOTE: Make sure to mark the phone number as PII!
 
+4. In order to let anyone to submit to your database, you'll need to update the permissions of the collection. Click the 3 dots **...** and go to **Permissions & Privacy**. Change the _Can add content_ setting from _Admin_ to _Anyone_.
+
+
 ![example of the database](/assets/content.png)
 
 
