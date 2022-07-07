@@ -7,7 +7,7 @@ In this module, you will save the user inputs in your database.
 
 **:white_check_mark: Step-by-Step Instructions**
 
-1. Now that you have the data from the inputs, you have to store them in the database. First, you need to import the WixData API.
+1. Now that you have the data from the inputs, you have to store them in the database. First, you need to import the WixData API. The best way to manage import statements is by adding them at the top of your code files. 
 ```JavaScript
 import wixData from 'wix-data';
 ```
@@ -33,5 +33,13 @@ wixData.insert("UserList", dataToStore)
 			$w('#nameInput, #phoneNumberInput').value = "";
 		});
 ```
+
+5. If you have set everything up correctly, when you preview your website using the **Preview** button on the top right of the screen, enter some test data. Go back to the Editor and to the Database tab via the left side menu bar. Check and verify that the data is stored.
+
+> COMMON ISSUES: Some reasons your data may not be saved is because of the follow
+>  A) you have not set the permissions of the database to allow anyone to Insert Data
+>  B) you do not have the Field Keys spelled properly (capitalization counts!)
+>  C) you do not have the Collection ID spelled properly (capitalization counts!)
+
 
 :fast_forward: Next Module => [Install Twilio](INSTALL_TWILIO.md)
