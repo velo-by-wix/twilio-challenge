@@ -40,7 +40,7 @@ fetch("https://opentdb.com/api.php?amount=1", {"method":"GET"})
 ```JavaScript
 .then((json) => {
       return json.results[0].question;
-});
+})
 ```
 
 
