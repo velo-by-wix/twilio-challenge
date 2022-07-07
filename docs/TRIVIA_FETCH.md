@@ -56,5 +56,6 @@ return fetch("https://opentdb.com/api.php?amount=1", { "method": "GET" })
     });
 ```
 
+8. You can test this function just like you did for the Twilio text message test. Click on the Play icon next to the function and then click Run. This function doesn't take any inputs, so it is easy to test! Make sure you are seeing a trivia question in the Function Output.
 
 :fast_forward: Next Module => [Let's put it all together!](PUT_TOGETHER.md)
